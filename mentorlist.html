@@ -1,0 +1,1287 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>SAWC</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+
+  <!-- CSS here -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/themify-icons.css">
+  <link rel="stylesheet" href="css/nice-select.css">
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/gijgo.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/slicknav.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="css/lightbox2/dist/css/lightbox.css" rel="stylesheet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="css/ninja-slider.css" rel="stylesheet" type="text/css" />
+  <script src="js/ninja-slider.js" type="text/javascript"></script>
+  <style>
+
+    .gallery img{
+      width:179px;
+      cursor:pointer;
+    }
+    .caption {
+      margin: auto;
+      display: block;
+      width: 100%;
+      text-align: center;
+      /*  background-color: #EEEEEE;*/
+      padding: 10px 0;
+      height: 150px;
+      z-index: 20;
+      top:85%
+    }
+    h3{
+      color: black;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    .caption h3{
+      color: white;
+      text-align: center;
+    }
+    .caption p{
+      color: white;
+      text-align: center;
+    }
+    @media screen and (max-width: 800px){
+      img{
+        margin-left: 25%;
+      }
+    }
+
+  </style>
+  <script>
+    function lightbox(idx) {
+            //show the slider's wrapper: this is required when the transitionType has been set to "slide" in the ninja-slider.js
+            var ninjaSldr = document.getElementById("ninja-slider");
+            ninjaSldr.parentNode.style.display = "block";
+
+            nslider.init(idx);
+
+            var fsBtn = document.getElementById("fsBtn");
+            fsBtn.click();
+          }
+
+        function fsIconClick(isFullscreen, ninjaSldr) { //fsIconClick is the default event handler of the fullscreen button
+          if (isFullscreen) {
+            ninjaSldr.parentNode.style.display = "none";
+          }
+        }
+      </script>
+    </head>
+
+    <body>
+      <!-- header-start -->
+      <header>
+        <div class="header-area ">
+          <div id="sticky-header" class="main-header-area">
+            <div class="container-fluid p-0">
+              <div class="row align-items-center no-gutters">
+                <div class="col-xl-2 col-lg-2">
+                  <div class="logo-img d-none d-lg-block">
+                    <a href="index.html">
+                      <img style="width: 38%; padding-top: 4px" src="img/sawclogo.png" />
+                    </a>
+                  </div>
+                </div>
+                <div class="col-xl-7 col-lg-7">
+                  <div class="main-menu  d-none d-lg-block">
+                   <nav>
+                                    <ul id="navigation" ><strong>
+                                        <li ><a href="index.html" style="font-size: 14px">Home</a></li>
+                                        <li><a href="about.html" style="font-size: 14px">About</a></li>
+                                        <li  style="color: white"> <a style="font-size: 14px">Courses</a> <i class="ti-angle-down"></i>
+                    <ul class="submenu">
+                   <li><a href="courses.html">Course List</a></li>
+                   <li><a href="instructors.html">Instructors</a></li>
+               </ul>
+                                        <li style="color: white"><a style="font-size: 14px">Mentorship</a> <i class="ti-angle-down"></i>
+                                            <ul class="submenu">
+                                                 <li><a href="mentorlist.html">Mentors</a></li>
+                                                <li><a href="mentor.html">Events</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="resources.html" style="color: white" style="font-size: 14px">Resources</a></li>
+                                        <li style="color: white"><a style="font-size: 14px">Apply</a> <i class="ti-angle-down"></i>
+                                            <ul class="submenu">
+                                                 <li><a href="teacherApp.html">Teacher</a></li>
+                                                 <li><a href="studentApp.html">Student</a></li>
+                                                 <li><a href="mentorApp.html" >Mentor</a></li>
+                                            </ul>
+                                        </li>
+                                        <li style="color: white" ><a style="font-size: 14px">FAQ</a> <i class="ti-angle-down"></i>
+                                            <ul class="submenu">
+                                                 <li><a href="faq_student.html">Student</a></li>
+                                                <li><a href="faq_instructor.html">Teachers</a></li>
+                                                <li><a href="faq_parent.html">Parent</a></li>
+                                            </ul>
+                                        </li>
+                                        <!-- <li><a href="donate.html">Donate</a></li> -->
+                                    </strong>
+                                    </ul>
+                                </nav>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+            <div class="log_chat_area d-flex align-items-center">
+              <a href="#contact" class="boxed_btn_orange">
+                <i class="flaticon-user"></i>
+                <span>Contact Us</span>
+              </a>
+            </div>
+          </div>
+          <br><br>
+          <div class="col-12">
+            <div class="mobile_menu d-block d-lg-none"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- bradcam_area_start -->
+<div class="bradcam_area breadcam_bg overlay2" style="padding: 129px 0 29px 0;">
+  <h3><b>Mentors</b></h3>
+  <h3 style="font-size: 10px"><em>Click on a mentor to read more about them</em></h3>
+</div>
+<!-- bradcam_area_end -->
+
+
+
+<br>
+
+
+<div class="our_team_member">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-9 col-lg-9 col-sm-9 col-md-9 "> </div>
+      <div class="col-xl-3 col-lg-3 col-sm-3 col-md-3 ">
+        <a href="mentor.html" target="_blank" class="boxed_btn"><b>View Mentor Events</b></a>
+      </div>
+    </div>
+
+    <!--start-->
+    <div style="display:none;">
+      <div id="ninja-slider">
+        <div class="slider-inner">
+          <ul>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/anna.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Anna Siju</h3>
+                <a href="mailto:16ams30@queensu.ca" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hi I'm Anna! I'm an undergraduate student at Queen's University in the concurrent education program, with a medial in Math and Religion. I joined SAWC because I am very passionate about teaching and mentorship.I know how challenging and stressful the transition from highschool to university can be, as a mentor I hope to ease this experience for our students through the fantastic workshops made by SAWC mentors all over the world. I'm very fortunate to be a part of the SAWC mentorship team this year and I'm very excited to meet you all!
+                </p>
+
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/anushka.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Anushka Gupta</h3>
+                <a href="mailto:anushka.gupta_ug23@ashoka.edu.in" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hey there! I'm Anushka!! I'm a first year in university and my intended major is psychology. I'm hoping to graduate in 2023. I joined SAWC because I just LOVE the idea behind the initiative, and I also love teaching. Based on my own experiences, I know having a mentor is a very important aspect of every student's life. I'm really excited to be a part of this programme, and I look forward to making lots of new friends, and learning and teaching lots of new things. I also am an avid reader, I try to read as much as I can during free time. Apart from that, I enjoy cooking and painting too. </p>
+                
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/bharat.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Bharat Kandadai</h3>
+                <a href="mailto:bharatkandadainit@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hi there, Bharat here. I'm a civil engineer working in the waste management industry. Originally from Hyderabad, India, I moved to the US for my masters degree. In my journey so far, I have had many friends and family mentor and guide me that shaped my life. It's exciting to be part of SAWC platform and do the same for someone else. I absolutely adore the manga/comic called One Piece (nothing beats that). I spend most of my free time reading about it and watching tollywood movies.</p>
+
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/najum.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Najum Ul Huda </h3>
+                <a href="mailto:Najumul@outlook.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>As a young student who moved from Kargil during the Kargil War, for studies to Srinagar and then to Jammu and , finally Delhi for higher studies, I found resonances with classmates and peers who faced various experiences and emotions. I advocated for ground level changes through initiating We for Kargil, a non profit organisation aimed at empowering vulnerable sections of Kargil and acting as a grassroots level movement altering the discourse on Kargil from being synonymous with war to one representing its rich cultural heritage. I also shared my time at another organization, the Charkha Development Communication Network as a coordinator for Kargil, wherein I focused on reaching out to the far flung areas of Kargil district involving students for their projects. Furthermore, I am enrolled as a member of J&K Bar Council and registered with Kargil Bar Association to continue working for people who may not have much awareness regarding their own rights. </p>
+
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/ishita.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Ishita Zutshi</h3>
+                <a href="mailto:ishitazutshi24@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hi, I’m Ishita. I’m a college sophomore studying psychology and economics. I joined SAWC because I hope to help students deal with issues that I faced myself through high school. My hobbies include cooking and playing with my dog. </p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/Hamza.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Hamza Abdulla</h3>
+                <a href="mailto:hamzaabdulla412@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hey! I'm Hamza! Born and raised in Karachi, I'm currently studying Philosophy and Literature. I absolutely love to teach and joining SAWC has given me the unique opportunity to share the lessons I've learnt from all the mistakes I've made to help others improve personally, academically as well as professionally. Though even more so than teaching, I love to listen and learn and hopefully benefit from someone else's human experience. so I hope that this experience is as memorable for you as it will be for me! Also don't forget to remember that those who look outside; dream, and those who look inside; awaken. Jung's onto something there. </p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/anjali.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Anjali Gurappa Lamani</h3>
+                <a href="mailto:anjali.lamani_ug23@ashoka.edu.in" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hey! I'm Anjali. I'm a fresher at Ashoka University planning to major in Biology and Chemistry. I hoping to graduate in 2023. The reason behind joining SAWC is because I love mentoring and helping others to improvise. Teaching and learning has a been a huge role in my life. I learnt and taught  so many things to my students throughout the 2-3 years and I'm ready to do the same. I'm glad and excited to work with the other members. I also play badminton and chess(not so good at chess though) in my free time which is everyday.  </p>
+              </div>
+            </li>
+
+            <li>
+              <a class="ns-img" href="img/courses/mentor/gayatridevi.jpeg" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Gayatridevi Tarcar</h3>
+                <a href="mailto:devig17@stanford.edu" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hello! I’m Gayatridevi! I’m a freshman at Stanford exploring a variety of subjects ranging from economics and public policy to computer science and Chinese. I joined SAWC because it’s an experience I would have valued as a student. I love helping people find their path and I hope to do so through SAWC! I love baking, cooking and music (singing, playing and listening). </p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/nafla.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Nafla Yousuf</h3>
+                <a href="mailto:naflayousuf@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hello! I am Nafla, a sophomore studying Geography. I joined SAWC because I enjoy mentoring students, helping people and reaching out to new people! I am an environmentalist and believe wholeheartedly in environmental stewardship. I believe that through mentorship I am able to learn from my mentee as well! I hope that my experience would be beneficial.</p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/anoushka.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Anoushka Gehani</h3>
+                <a href="mailto:anoushkagehani_ug23@ashoka.edu.in" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hi! I'm Anoushka. I'm in my first year of university. I haven't decided what specific subject to major in, but I'm leaning towards computer science and philosophy. I love getting to know people. I joined SAWC because I've faced the backlash of having unprofessional mentors and want to make sure no one goes through that. I'm looking forward to aid making the SAWC program successful, while learning alongside too. I love reading, spending time in nature and playing any sport.</p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/yadurshini.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Yadurshini Raveendran</h3>
+                <a href="mailto:yadurshini.r@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hi, My name is Yadurshini Raveendran or Yadu for short, and I'm originally from Colombo, Sri Lanka. I'm a recent Masters of Science in Global Health graduate from Duke University, USA. Currently, I work in the field of clinical research working on COVID-19 Drug and Vaccine Clinical Trials. My prior experience as a teacher and mentor prompted me to join SAWC, and I look forward to engaging with everyone and hop to make this an enjoyable experience. In my free time, I enjoy cooking, reading, and chatting with my friends.</p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/talhab.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Talha Bin Mujahid</h3>
+                <a href="mailto:talha.mujahid1992@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hello,  I'm Talha!  I'm a final year grad student in Tsinghua University Beijing studying Automotive Engineering,  hopefully going to graduate in 2021.  I joined SAWC because I benfitted a lot from a similar program back in high school personally and professionally. It is due to this that I feel I could mentor about everything I learnt till now and SAWC is among the best platforms for that. Besides that,  I'm an avid bodybuilding fan and love hiking and mountain climbing. </p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/abdelsalam.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Abdelsalam Gena</h3>
+                <a href="mailto:abdulsalamgosee@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>My name is Abdelsalam Gena. I also go by the name Gosee (pronounced as Go-Say). I come from a place called Oromia, in Ethiopia (the biggest region in Ethiopia). I am currently a second year at Ashoka University and studying physics and math. I also love writing poems (I was even planning to minor in creative writing but had to change my mind because physics was too good along with math). Throughout the day, besides academics, I listen to hip-hop and appreciate the greatness of this form of poetry. I'm joining SAWC to learn how to lead the future. I do want to do something similar to what SAWC is doing. Hence, I am excited to learn (and teach).</p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/ajay.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Ajay Pinjani</h3>
+                <a href="mailto:ajaypinjani@eknuqta.org" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hi :) I work as a Senior Manager MTB-MLE (Mother Tongue based Multilingual Education) and Learning and Assessment Design at The Citizens Foundation, Pakistan. I am an Acumen Fellow, and founder of Ek Nuqta, an educational consultancy. I hold a master’s in Social Work from Tata Institute of Social Sciences, India. Often I express my educational experiences at http://pinjani.blogspot.com/.. Excited to connect with you :) </p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/mansi.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Mansi Vashisth</h3>
+                <a href="mailto:mansi.vashisth_mls21@ashoka.edu.in" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hi! I’m Mansi. I’m a graduate student doing Masters in Liberal Studies with specialisation in Philosophy. I graduate in 2021! I wish to be a teacher/mentor/professor in life for which I’m going to be doing a PhD further. There is nothing I’d love more than to share what I’ve learnt in life through various crazy academic and personal experiences. I think SAWC is a great programme and I’m so excited to be a part of this. I’m an outdoorsy person, I love to travel, read, play with dogs and going for runs! I also love to write philosophical essays. </p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/shubhr.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Shubhr Aakriti</h3>
+                <a href="mailto:aakritishubhr@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hello. I am Shubhr, second year student studying English and History and exploring Creative Writing and Performing Arts. I am hoping to graduate in 2022. I joined SAWC because I enjoy teaching and mentoring. Many are often lost about which direction to take for further studies and so was I, and with this platform I hope to help everyone. In my free time, I like to read, write, paint, sing and watch movies and explore fantasy culture.</p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/lisa.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Lisa Sebastian</h3>
+                <a href="mailto:lisamariasebastian@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hey! My name is Lisa and I am in my second year of university studying Law. I joined SAWC as a mentor, because I am passionate about helping younger people excel in their academic lives.  I hope I can help and guide students on the programme, with some of the amazing sessions we have planed. In my free time I enjoy spending time with family and singing.</p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/gouri.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>Gouri Sreekumar</h3>
+                <a href="mailto:gourisree7@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>I am Gouri. I am a second year law student from National Law University Jodhpur. I enjoy debating and playing football. I joined SAWC because I like mentoring and I hope to end up as a teacher. I think it is a great opportunity to meet people and to know more about them. I am sure I will learn a lot of things myself. I am extremely excited to be a part of this program.</p>
+              </div>
+            </li>
+            <li>
+              <a class="ns-img" href="img/courses/mentor/vasantha.png" style="height: 70%; margin-top:5%"></a>
+              <div class="caption" style="top:85%">
+                <h3>O.Vasantha Pallavi</h3>
+                <a href="mailto:vasanthapallu09@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                <p>Hello, I am Vasantha Pallavi pursuing Bachelor of arts in economics and political science at Miranda house  , graduating in 2021.I am fascinated to educate students so SWAC allowed me to perform this so I am thankful to SWAC.In my leisure time, I go to the gym , reading books and dancing/p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/talhac.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Talha Cheema</h3>
+                  <a href="mailto:cheemm5@mcmaster.ca" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi! I'm Talha. I am a recent University graduate in Science and currently working in the hospital. I joined SAWC because I enjoy teaching and mentorship and its value ability to shape the future. These mentorship opportunities teach me a lot and also give me an opportunity to develop professionally. I am excited to working with ya'll! In my free time, I love watching TV/anime, reading, playing basketball and working out!</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/kushal.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Kushal Shahi</h3>
+                  <a href="mailto:kushalshahi40@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi! I'm Kushal! I am accepted to Augustana College for my bachelor's degree. To begin with, I joined SAWC because I adore mentoring and teaching and have realized how valuable it has been to my journey, both personally and professionally. Moreover, I am excited to help provide this experience to others through the amazing program SAWC offers. And, in my free time, I love playing and watching soccer and cricket.</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/shahiqa.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Shahiqa Butt</h3>
+                  <a href="mailto:shahiqa.butt@2021.cedar.edu.pk" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hello I'm Shahiqa, I'm currently an A2 level  student and aspire to be a doctor or clinical psychologist one day.I connected with the activities in SAWC because I felt a strong connection with helping,encouraging and instilling that sense of responsibility and self confidence in people around my age because initially I had struggled to reach this level of self confidence and I wished someone was there for me because I had to learn on my own and I guess that is how we fight battles in life,alone we just need to believe in ourselves and need timely encouragement.I'm really looking forward to connecting with and assisting a few friends I make along way. In all honesty, I would not say I'm a very regular book reader as in reading books all day EVERYDAY but I do enjoy reading books, gymming,outdoor sports eg basketball,soccer,cricket,throwball.I am extremely passionate about writing and my essays have been published in my schools Golden Pen Award edition twice and in the poetry book for exceptional poetries once.I am really excited to be interacting with new people in the mentorship programme and look forward to it!</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/trisha.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Trisha Bharti</h3>
+                  <a href="mailto:trishabharti121001@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi! I'm Trisha. I'm currently in my second year of pursuing a bachelor's in psychology, which is a subject I'm extremely passionate about and hope to establish a career in, in the future. I also enjoy playing the piano, reading and watching thrillers, acting and photography! I joined the SAWC as a mentor because I see it as an incredible opportunity to connect with and guide those who may be just like me, and subsequently learn from them as well. I cannot wait to start this amazing experience!  </p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/nisshat.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Nisshat Sheikh</h3>
+                  <a href="mailto:nisshat.sheikh@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi! I'm Nisshat! I am a second year undergraduate studying sociology, hoping to graduate in 2022. I joined SAWC because I love mentoring and wanted to be there for someone who requires guidance as I know the value of being able to choose the right path. I am thrilled to provide this experience to others through the amazing program SAWC offers. In my leisure time, I love listening to music, writing and watching good movies.</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/meera.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Meera Kumaar </h3>
+                  <a href="mailto:meerakumaar9@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hey! I'm Meera ! I've recently begun my undergraduate studies in Biomedical Engineering. Over the years,teaching and mentoring,apart from developing core skills , has helped me identified the importance of giving back to society in life. SAWC through its innovative initiative has provided an amazing opportunity for many to benefit from one another, whether it's through teaching or learning. My other interests include entrepreneurship, photography, debating, playing the ukulele and reading. </p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/alizeh.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Alizeh Ahmed</h3>
+                  <a href="mailto:alizehisgreat@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi! I’m Alizeh! I am a senior in college studying English literature, psychology and business studies, aiming to graduate in 2021. I’m a friendly person  who loves conversing on different topics and ideas.  You can share with me any joke, deep quote or anything, I’ll always have something to say! My interests include reading and writing poetry, sketching and sports. I joined SAWC because I love meeting new people and learning different things about them. As a mentor, I won’t just be a stickler for telling you what’s right for you, but I’ll share my experiences with you and give you enough space so that you can choose your own path. Not mine or someone else’s, but yours.  I hope that through this wonderful program, I can advise you enough for you to be the best version of your self!</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/pearl.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Pearl Gandhi</h3>
+                  <a href="mailto:pearlgandhi21@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi, I am Pearl! I am a fourth year student in university studying early childhood studies, hoping to graduate in 2021. I joined SAWC because I believe this is an incredible opportunity to make a difference through empathy-based mentoring and equally an opportunity to learn from students across South Asia! I am so excited to host a mentorship workshop through SAWC and apply the knowledge I have learned while in post-secondary. In my free time, I love spending time with my loved ones, going on long walks, listening to bollywood music, and experimenting with vegetarian cooking!</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/nida.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Nida Ahmed</h3>
+                  <a href="mailto:nida.ah95@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi! My name is Nida Ahmed and I'm finishing up my masters in public administration at USC, graduating in 2021. I joined SAWC because I have had some incredible mentors in my life and I'd like to do my part to support others on their journey. In my free time I'll usually be hiking, painting, or catching up on some tv shows. </p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/chirodip.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Chirodip Naha </h3>
+                  <a href="mailto:chirodip.naha_ug21@ashoka.edu.in" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi, I am Chirodip, I am a third year Undergraduate student at Ashoka University, I am majoring in Political Science and minoring in Creative Writing and Media Studies. I always loved teaching, and mentoring my juniors. So, I am very happy to be part of SAWC. As a creative writing minor, I love reading and writing, I do a read a book a week and that's my favorite pass time, apart from that I love to play Squash and Tennis. Through the SAWC program, I am really looking forward to meet you all and have lots of fun together.</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/pratiksha.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Pratiksha Gautam</h3>
+                  <a href="mailto:gautpr01@luther.edu" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hello! I am Pratiksha Gautam and I am a sophomore at Luther College, Decorah, Iowa. I am a Business Management and Economics major and I hope to graduate in 2023.  I joined SAWC because I am an alumni of Teach for India and Akanksha Foundation and I really believe in what the SAWC is trying to do. I come from an underprivileged background and had a lot of mentors growing up and I feel like I can relate to the young adults of South Asia. To be honest, I have been through issues in my life and I want to share it with my mentees and let them know that nothing is impossible if you ready to give your 100% in doing something. It doesn't have to be things related to academics, it can be giving your 100% in being a good human being and taking ethical decisions in your life. I also want to develop the habit of decision making in my mentees, advising and mentoring them and learning from them. Nevertheless, I am very grateful for this opportunity and looking forward to sharing my experiences with people and listening to their experiences.  I love talking, love playing badminton, love debates, rain, Chai, cooking (Indian Veg) and watching. </p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/mahnoor.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Mahnoor Tahir</h3>
+                  <a href="mailto:lerking_spirit@hotmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>My name is Mahnoor Tahir, I am currently and student of MBBS program in 4th professional year. I am a very enthusiastic person and active person  who likes to keep a balance between everything, studies, personal life, social circle, extra curricular and my favorite part traveling. I will call myself an ambivert, I am an extrovert when need be and introvert when in my own personal space. I love listening to people and their life experience and stories. Absolutely enjoy the company of new people as they bring so much perspective  and exposure in my life through sharing there stories. Not only that I engage with others and make them feel heard because it’s important to let others know there words matter. If a friend or person asks me for help or advice I usually make sure to help them put first verbally at least if not physically.</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/saloni.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Saloni Mehta</h3>
+                  <a href="mailto:saloni.mehta@alumni.ashoka.edu.in" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hello, I'm Saloni!  I am a student of math, performing arts, and computer science in my final year at University. I have, like all former teenagers and new adults, gone through multiple existential crises of varying magnitudes. I have been very lucky to have had abundant help that guided me through these, and I am here to pay it forward! Oh, and I am obsessed with watching food tasting videos.</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/shizza.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Shizza Fatima</h3>
+                  <a href="mailto:sfatima@stanford.edu" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hey, I'm Shizza! I am a graduate student at Stanford University and pursuing an MA in International Education Policy Analysis. Teaching and mentoring has been an important part of my life and I derive immense joy from helping others reach their potential. I have an undergraduate degree in structural engineering, and professional experiences in STEM research and education. I also have a background in social sciences and sociology of education. My personal interests include reading, painting and spending time with family. I am excited to be a part of SAWC and make meaningful connections with South Asian students. Through this opportunity, I hope to foster mutual growth and enrichment, helping students navigate the tricky terrains of personal, academic and professional development in the midst of a pandemic. </p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/mahrukh.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Mahrukh Murad </h3>
+                  <a href="mailto:mahrukhmurad@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi, I'm Mahrukh! I am a freshman at LUMS, potentially majoring in English Literature and Sociology. I joined SAWC because I'm passionate about helping students grow personally and academically. I am hoping to create a mutually collaborative environment and a safe space for sharing life stories and concerns through the amazing platform that SAWC provides. In my free time I love to read, write poetry, and bake cakes.</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/vijayita.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Vijayita Bhardwaj</h3>
+                  <a href="mailto:vijayita.bhardwaj@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi, my name is Vijayita! I am currently working in Recruitment at a Human Resources (HR) Consulting and Insurance firm in Toronto. SAWC caught my eye as I thought it's a great initiative and paired with my passion for helping others, there was no way that I wouldn't apply to take on a great opportunity. A few things I love: my cat (and all animals), pizza, and HR! </p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/ananya.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>D. Ananya Reddy</h3>
+                  <a href="mailto:donuruananyareddy@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>I am Ananya. I am a student of Geography at Miranda House, University of Delhi. I joined SAWC to experience and explore the world of teaching and mentoring. </p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/shabana.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Shabana Hashimi</h3>
+                  <a href="mailto:Shabana.hashimi_ug21@ashoka.edu.in" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hello, I am Shabana Hashimi and a senior in Ashoka University, studing English and Journalism. I joined SAWC because I love to share my knowledge with other people and at meanwhile learn from them. It would be an incredible experience to work with students from different countries. My favorite activity is drawing, listening to music, and reading.  I love to make thing happen and make people happy. </p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/ami.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Ami Shah</h3>
+                  <a href="mailto:ami.s.shah1@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>"Hi! I'm Ami! I am a First-Year Master's student at Ashoka university studying Economics and Finance, hoping to graduate in 2022 and work in the field of Quant-Finance. I joined SAWC because I just love guiding my juniors and helping them both personally and professionally; It makes me so proud to see them grow and achieve their dreams. Personally, I won’t be where I am without help from my mentor - Karan. So, I understand the level of impact good mentoring can provide. I am excited to help provide this experience to you guys through this amazing program SAWC offers. In my free time, I love reading business novels, running and going to Zumba class" </p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/megha.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Megha Aggarwal</h3>
+                  <a href="mailto:meghaggarwal04@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Megha is a graduate in commerce, finding her truly calling in understanding what 'Development' means to different people and how can the mutual goals be attained without destructing the environment. She believes that volunteering is the first step to bring the change we want to see around and never shies away from opportunities that can support in bringing a significant change. Currently, she's pursuing MA in Environment and Development at Ambedkar University, Delhi and is volunteering as V-Force coordinator for United Nations Volunteer India</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/shruti.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Shruti Chakraborty</h3>
+                  <a href="mailto:shrutifromnimta@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hello! I am Shruti. I am a second year,  undergrad student of Sociology in Lady Shri Ram College. I applied for the mentorship programme because it provided me with the opportunity to partly undo the damage of an education system that has inculcated enough fear to be afraid of one’s own shadow. It is like telling your younger self “there is nothing to fear except fear in itself”. My life is constricted to the trinity of books, writing, and good rock music. I sleep in the morning and dream at night. I am not an owl. I am just a science experiment that went rogue.</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/maryam.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Maryam Sheikh</h3>
+                  <a href="mailto:Maryam.sheikh25@hotmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hello, I’m Maryam. I’m currently completing a second undergraduate degree. I will be graduating with an LLB degree in 2021. I’m excited to use the SAWC programme as a learning opportunity because I’ve seen the impact of a strong mentee/mentor relationship and the extent to which it can affect your life positively. I’m only fun when I’m unashamedly sarcastic, otherwise my interests lie in golf and reading. I did break my femur earlier this year, now I use it as an excuse to be lazy or add fun to my stories. </p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/Fatima.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Fatima Shahid</h3>
+                  <a href="mailto:wakeupfafa08@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hey. I am Fatima. I am a college student doing pre engineering from Fazaia Inter College, Pakistan AirForce. I will be completing my high school next year. I joined SAWC on purpose. I want to utilize my crucial life traumas in a better way that would help people around me and prepare them for the hardships of life. I have saved lives. I want to save lives as much as I can. I am super excited to mentor my people and be a part of this firm. I am an introvert unless our vibes match, yeet. I am obsessed with arts and literature and have contributed sm here. I love getting ready and captured through the lense of the camera anytime and anywhere. </p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/yasashvi.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Yasashvi Paarakh</h3>
+                  <a href="mailto:paarakhyasashvi@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi, I am Yasashvi! I am a freshman at Ashoka University and hoping to major in Economics and Finance. I joined SAWC because, in the past, I have had many positive mentorship experiences who have helped shape me and guide me through my journey and it would be an amazing opportunity to do the same for others. I love reading anything at all, enjoy writing as well. Looking forward to talk to you in and out of camps!</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/zara.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Zara Hussain</h3>
+                  <a href="mailto:zara.hussain12@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi! My name is Zara and I’m a second-year Dentistry student. This summer, I had the opportunity to volunteer with an organisation called IEI to create radio literacy lessons for children living in remote valleys of Pakistan, facing the digital divide. Despite lockdown, this experience was a reminder of the endless ways I could still reach out to help people. Hence, SAWC presented me an amazing opportunity to help guide and support students during this time of uncertainty. I am excited to be part of SAWC and hope to make it an insightful and great learning experience for others too. If I am not working, you will find me either playing badminton or reading but lockdown has definitely added Netflix to the list!</p>
+                </div>
+              </li>
+              <li>
+                <a class="ns-img" href="img/courses/mentor/simran.png" style="height: 70%; margin-top:5%"></a>
+                <div class="caption" style="top:85%">
+                  <h3>Simran Kaur Saini</h3>
+                  <a href="mailto:skaursaini31@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+                  <p>Hi,I'm Simran.I graduated in 2018 and currently working as a Software Quality Assurance Engineer.I am all set to explore,learn and share my experiences through this amazing platform and watch each other grow.Dancing and spending time with friends and family are my stress busters.</p>
+                </div>
+              </li>
+    <!-- <li>
+      <a class="ns-img" href="img/courses/mentor/lina.png" style="height: 70%; margin-top:5%"></a>
+      <div class="caption" style="top:85%">
+        <h3>Lina Karamali</h3>
+        <a href="mailto:linakara@stanford.edu" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+        <p>Hi, I'm Lina! I'm a senior at Stanford studying Comparative Studies in Race and Ethnicity and minoring in Human Rights. I'm super excited to join SAWC because I would have loved to have a mentor with my cultural background when I was younger, and I hope to provide some guidance and help on whatever is important to my mentee! In my free time, I like playing/listening to/writing music, doing makeup, reading, and exercising.</p>
+    </div>
+  </li> -->
+  <li>
+    <a class="ns-img" href="img/courses/mentor/zainab.png" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Zainab Dahodwala</h3>
+      <a href="mailto:z.dahodwala25@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hi! I am Zainab, a second year student of Psychology and Anthropology.I joined SAWC because I am passionate about helping others and I'd like to make my own small contribution to their journeys. Mentorship, in my personal experience has helped me navigate many areas of my life that would've been otherwise challenging and I am excited about sharing the experience with others! </p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/tanvi.png" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Tanvi Bahl </h3>
+      <a href="mailto:tanvi.bahl_ug23@ashoka.edu.in" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hi! I’m Tanvi! I am a freshman in university studying psychology, hoping to graduate in 2024. I joined SAWC because I love mentoring and connecting with others . I’m really excited to share my journey and help others forge their own path. In my free time I love listening to music and enjoy high jump.</p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/najia.png" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Najia Fatima</h3>
+      <a href="mailto:nf2490@columbia.edu" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hi, I am Najia currently a student in the Masters of Critical Curatorial and Conceptual Practices at Columbia University's Graduate School of Architecture, Planning and Preservation. I am interested in SAWC because I realize the challenges of entering a creative industry, wanting to explore the artistic world but also experiencing the backlash such a career path invites in South Asian families. I have realized the value of good mentoring throughout my years of undergraduate and Masters. </p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/muskaan.png" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Muskaan Lucknowala </h3>
+      <a href="mailto:muskluck@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hi my name is Muskaan! I'm currently in my 2nd year studying nutrition and dietetics. I've enrolled for SAWC because I enjoy interacting with new people and love mentoring people. I love learning from people and being able to share with them the knowledge that I have . I know this will be a great learning experience for me , one which will help me in my personal as well as professional development. I love swimming , doing yoga and playing the piano. </p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/sarrah.png" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Sarrah Hussain</h3>
+      <a href="mailto:sarrah@stanford.edu" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hi! I'm Sarrah and I am a second year undergrad student studying computer science and human biology. I enjoy mentoring and guiding students through their own journey as they navigate the academic and professional world, and am excited to connect with all the SAWC students this year. When I am not studying, I enjoy cooking, reading, and watching holiday movies.</p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/shubham.png" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Shubham Dhiman</h3>
+      <a href="mailto:shubhamdhiman223@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hi! I am Shubham. I am a third year student in Ashoka University studying psychology, hoping to graduate in 2022. I joined SWAC because I found it similar to something that I was doing when I left school which was being a mentor to someone and helping them become a better person.</p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/anam.png" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Anam Fatma </h3>
+      <a href="mailto:fatma.anam1999@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hey! I'm Anam Fatma and I'm a sociology graduate. I further plan to do a masters in sociology in future. I always had a knack for learning and that's why I love to teach others too. I've also done a couple of teaching internships too. I love meeting new people and I wish to write novels about them in future. I'm looking forward for the SAWC as I'm sure that there's so much that I can learn it and share my journey with others. </p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/manasija.png" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Sri Manasija Mandalika</h3>
+      <a href="mailto:manasija2525@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hi, I'm Manasija, a second year psychology major and a media studies minor. I loved the concept and idea of SAWC and joined to help out my mentees in every and all ways I can. I love mentoring and assisting because nothing is more precious and valuable than giving out knowledge. I love animals and work extensively for their welfare. I also run my Youtube channel and Instagram account where I post videos about self portraits and lifestyle.</p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/aneri.jpg" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Aneri Doshi</h3>
+      <a href="mailto:aneri.hdoshi@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hi! I'm Aneri. I am copywriter and I work for a digital agency. I'm a media graduate, who believes that words have the power to change the world. I eager to be a part of SAWC because I was, not too long ago, a lost high school student. I would be where I am right now without the help, support, guidance and motivation of my teachers and mentors. This is my way of appreciating all their love. </p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/harika.jpg" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Harika Kottakota</h3>
+      <a href="mailto:harikak@alumni.stanford.edu" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hello! My name is Harika, and I graduated from Stanford in 2020. As an undergrad, I got to explore many different fields, from cell biology to international human rights, and even got to travel to 5 different countries along the way! I joined SAWC because mentorship was incredibly important in my own journey, especially in helping me find what I'm most passionate about. I am thrilled to be able to pay it forward by being a mentor through SAWC. In my free time, I love writing poetry, reading a good novel, or wandering museums.</p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/shiza.jpg" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Shizah Shaukat</h3>
+      <a href="mailto:shizash1995@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hi! I am Shizah. I have recently completed my Master's degree in Accounting and Finance. I joined SAWC because I love interacting with people. That has helped me a great deal to learn and grow. I am excited to help you by sharing my experiences with reference to different aspects of life. Other than that, I also like and try to keep myself updated on my knowledge of general and current affairs. Have an eye for detail for anything related to fashion, art and aesthetics.</p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/adil.jpeg" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Adil Ashraf Mayo</h3>
+      <a href="mailto:21110336@lums.edu.pk" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hullo Friends! I am Adil Ashraf Mayo. I'm in my last year at the Lahore University of Management Science as a Management Science major and a Political Science minor. I really like seeing young people grow and feel that youth empowerment can be one of the major drivers of change in South Asia which is why I'm very excited to be a part of this project. I'm really lookin forward to connect with all of you and hopefully be a good mentor. I'll make it extra fun with a few random memes and some deep meaningful conversations in the mix too!</p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/muneef.jpg" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Muhammad Muneef Rizvi</h3>
+      <a href="mailto:muneef98@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hi everyone, I'm Muneef! I'm an undergraduate student at the Lahore University of Management Sciences, majoring in Mathematics with a minor in Computational Finance. We're living in unprecedented times, and with that, comes a plethora of experiences that we all can learn from; and that makes SAWC all the more worthwhile. Based on my own experiences, I know how much I have benefitted from having mentors guiding me in every step of the way, be it professionally or academically. The transition from High School to University can be very demanding, and as a mentor, I sincerely hope that SAWC (and I, touchwood) can help you ease into the experience. I'd love to listen to your own unique stories, or maybe even go over who your favorite YouTuber or Sportsperson is. The possibilities are endless, I hope.</p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/bushra.jpeg" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Bushra Saman</h3>
+      <a href="mailto:samannjavaid@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>I am Bushra Saman and prefer to be called Saman :). I graduated (BBA-H) in 2018. I am working in an IT company a researcher and content producer. Prior to that, I used to teach. And that is my motivation of joining SAWC. Helping my students perform better, become better is personally fulfilling. I hope to prove myself a good mentor. </p>
+    </div>
+  </li>
+  <li>
+    <a class="ns-img" href="img/courses/mentor/payal.jpg" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Payal Somani</h3>
+      <a href="mailto:payal.somani_ug21@ashoka.edu.in" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hello! I'm Payal, a third-year undergraduate student at Ashoka University. I am pursuing my major and minor in two subjects I absolutely love--Psychology and English literature, respectively--and hope to become a clinical psychologist someday. I joined SAWC because I have always loved the experience of teaching and mentoring other people in whatever capacity I can, and it gives me immense pleasure to be able to share knowledge with others. I really look forward to being a part of this program and getting to know some amazing people! In my free time, you will find either find me writing, watching Netflix, or dreaming about the day the world goes back to normal. </p>
+    </div>
+  </li>
+    <li>
+    <a class="ns-img" href="img/courses/mentor/aisha.jpeg" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Aisha Shafi</h3>
+      <a href="mailto:s.aisha10@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hi! My name is Aisha. I’m a recent university graduate where I studied government and international politics, along with data analysis and conflict resolution. I hope to pursue a career in public policy, working to find solutions to very real problems. My professional development was shaped by mentors who provided guidance and insight into opportunities I should pursue. I’m excited to bring that advice and personal experiences into the SAWC mentorship program. </p>
+    </div>
+  </li>
+    <li>
+    <a class="ns-img" href="img/courses/mentor/anam.jpg" style="height: 70%; margin-top:5%"></a>
+    <div class="caption" style="top:85%">
+      <h3>Anam Javed</h3>
+      <a href="mailto:anamjaved2000@gmail.com" style="color: white;" target="_blank" > <i class="fa fa-envelope"></i> <b>Email Mentor </b></a>
+      <p>Hey, I am Anam Javed student at Asian Institute of Fashion Designing. Teaching always inspires me, also I have teaching experience of an year. My hobbies are doodling, sketching and painting. I believe, there would be a lot that I can learn from my mentee. Looking forward to healthy learning.</p>
+    </div>
+  </li>
+
+</ul>
+<div id="fsBtn" class="fs-icon" title="Expand/Close"></div>
+</div>
+</div>
+</div>
+<div>
+  <br /><br />
+  <div class="gallery">
+    <div class="row">
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/anna.png" onclick="lightbox(0)" />
+        </div>
+        <div>
+          <h3>Anna Siju</h3>
+        </div>
+      </div>
+
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/anushka.png" onclick="lightbox(1)" />
+        </div>
+        <div>
+          <h3>Anushka Gupta</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/bharat.png" onclick="lightbox(2)" />
+        </div>
+        <div>
+          <h3>Bharat Kandadai</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/najum.png" onclick="lightbox(3)" />
+        </div>
+        <div>
+          <h3>Najum Ul Huda</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/ishita.png" onclick="lightbox(4)" />
+        </div>
+        <div>
+          <h3>Ishita Zutshi</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/Hamza.png" onclick="lightbox(5)" />
+        </div>
+        <div>
+          <h3>Hamza Abdulla</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/anjali.png" onclick="lightbox(6)" />
+        </div>
+        <div>
+          <h3>Anjali Gurappa Lamani</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/gayatridevi.jpeg" onclick="lightbox(7)" />
+        </div>
+        <div>
+          <h3>Gayatridevi Tarcar </h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/nafla.png" onclick="lightbox(8)" />
+        </div>
+        <div>
+          <h3>Nafla Yousuf</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+        <div >
+          <img src="img/courses/mentor/anoushka.png" onclick="lightbox(9)" />
+        </div>
+        <div>
+          <h3 style="text-align: center;">Anoushka Gehani</h3>
+        </div>
+      </div>
+
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/yadurshini.png" onclick="lightbox(10)" />
+        </div>
+        <div>
+          <h3>Yadurshini Raveendran</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/talhab.png" onclick="lightbox(11)" />
+        </div>
+        <div>
+          <h3>Talha Bin Mujahid</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/abdelsalam.png" onclick="lightbox(12)" />
+        </div>
+        <div>
+          <h3>Abdelsalam Gena</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/ajay.png" onclick="lightbox(13)" />
+        </div>
+        <div>
+          <h3>Ajay Pinjani</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/mansi.png" onclick="lightbox(14)" />
+        </div>
+        <div>
+          <h3>Mansi Vashisth</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/shubhr.png" onclick="lightbox(15)" />
+        </div>
+        <div>
+          <h3>Shubhr Aakriti</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/lisa.png" onclick="lightbox(16)" />
+        </div>
+        <div>
+          <h3>Lisa Sebastian </h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/gouri.png" onclick="lightbox(17)" />
+        </div>
+        <div>
+          <h3>Gouri Sreekumar</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/vasantha.png" onclick="lightbox(18)" />
+        </div>
+        <div>
+          <h3>O.Vasantha Pallavi</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/talhac.png" onclick="lightbox(19)" />
+        </div>
+        <div>
+          <h3>Talha Cheema</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/kushal.png" onclick="lightbox(20)" />
+        </div>
+        <div>
+          <h3>Kushal Shahi</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/shahiqa.png" onclick="lightbox(21)" />
+        </div>
+        <div>
+          <h3>Shahiqa Butt</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/trisha.png" onclick="lightbox(22)" />
+        </div>
+        <div>
+          <h3>Trisha Bharti </h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/nisshat.png" onclick="lightbox(23)" />
+        </div>
+        <div>
+          <h3>Nisshat Sheikh</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/meera.png" onclick="lightbox(24)" />
+        </div>
+        <div>
+          <h3>Meera Kumaar </h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/alizeh.png" onclick="lightbox(25)" />
+        </div>
+        <div>
+          <h3>Alizeh Ahmed</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/pearl.png" onclick="lightbox(26)" />
+        </div>
+        <div>
+          <h3>Pearl Gandhi</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/nida.png" onclick="lightbox(27)" />
+        </div>
+        <div>
+          <h3>Nida Ahmed</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/chirodip.png" onclick="lightbox(28)" />
+        </div>
+        <div>
+          <h3>Chirodip Naha </h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/pratiksha.png" onclick="lightbox(29)" />
+        </div>
+        <div>
+          <h3>Pratiksha Gautam</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/mahnoor.png" onclick="lightbox(30)" />
+        </div>
+        <div>
+          <h3>Mahnoor Tahir</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/saloni.png" onclick="lightbox(31)" />
+        </div>
+        <div>
+          <h3>Saloni Mehta</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/shizza.png" onclick="lightbox(32)" />
+        </div>
+        <div>
+          <h3>Shizza Fatima</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/mahrukh.png" onclick="lightbox(33)" />
+        </div>
+        <div>
+          <h3>Mahrukh Murad </h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/vijayita.png" onclick="lightbox(34)" />
+        </div>
+        <div>
+          <h3>Vijayita Bhardwaj</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/ananya.png" onclick="lightbox(35)" />
+        </div>
+        <div>
+          <h3>D. Ananya Reddy</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/shabana.png" onclick="lightbox(36)" />
+        </div>
+        <div>
+          <h3>Shabana Hashimi</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/ami.png" onclick="lightbox(37)" />
+        </div>
+        <div>
+          <h3>Ami Shah</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/megha.png" onclick="lightbox(38)" />
+        </div>
+        <div>
+          <h3>Megha Aggarwal</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/shruti.png" onclick="lightbox(39)" />
+        </div>
+        <div>
+          <h3>Shruti Chakraborty</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/maryam.png" onclick="lightbox(40)" />
+        </div>
+        <div>
+          <h3>Maryam Sheikh</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/Fatima.png" onclick="lightbox(41)" />
+        </div>
+        <div>
+          <h3>Fatima Shahid</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/yasashvi.png" onclick="lightbox(42)" />
+        </div>
+        <div>
+          <h3>Yasashvi Paarakh</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/zara.png" onclick="lightbox(43)" />
+        </div>
+        <div>
+          <h3>Zara Hussain</h3>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+        <div>
+          <img src="img/courses/mentor/simran.png" onclick="lightbox(44)" />
+        </div>
+        <div>
+          <h3>Simran Kaur Saini</h3>
+        </div>
+      </div>
+        <!-- <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+                <img src="img/courses/mentor/lina.png" onclick="lightbox(45)" />
+            </div>
+            <div>
+                <h3>Lina Karamali</h3>
+            </div>
+          </div> -->
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/zainab.png" onclick="lightbox(45)" />
+            </div>
+            <div>
+              <h3>Zainab Dahodwala</h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/tanvi.png" onclick="lightbox(46)" />
+            </div>
+            <div>
+              <h3>Tanvi Bahl </h3>
+            </div>
+          </div>
+
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/najia.png" onclick="lightbox(47)" />
+            </div>
+            <div>
+              <h3>Najia Fatima</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/muskaan.png" onclick="lightbox(48)" />
+            </div>
+            <div>
+              <h3>Muskaan Lucknowala </h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/sarrah.png" onclick="lightbox(49)" />
+            </div>
+            <div>
+              <h3>Sarrah Hussain</h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/shubham.png" onclick="lightbox(50)" />
+            </div>
+            <div>
+              <h3>Shubham Dhiman</h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/anam.png" onclick="lightbox(51)" />
+            </div>
+            <div>
+              <h3>Anam Fatma </h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/manasija.png" onclick="lightbox(52)" />
+            </div>
+            <div>
+              <h3>Sri Manasija Mandalika</h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/aneri.jpg" onclick="lightbox(53)" />
+            </div>
+            <div>
+              <h3>Aneri Doshi</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/harika.jpg" onclick="lightbox(54)" />
+            </div>
+            <div>
+              <h3>Harika Kottakota</h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/shiza.jpg" onclick="lightbox(55)" />
+            </div>
+            <div>
+              <h3>Shizah Shaukat</h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/adil.jpeg" onclick="lightbox(56)" />
+            </div>
+            <div>
+              <h3>Adil Ashraf Mayo</h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/muneef.jpg" onclick="lightbox(57)" />
+            </div>
+            <div>
+              <h3>Muhammad Muneef Rizvi</h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/bushra.jpeg" onclick="lightbox(58)" />
+            </div>
+            <div>
+              <h3>Bushra Saman</h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/payal.jpg" onclick="lightbox(59)" />
+            </div>
+            <div>
+              <h3>Payal Somani</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/aisha.jpeg" onclick="lightbox(60)" />
+            </div>
+            <div>
+              <h3>Aisha Shafi</h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
+            <div>
+              <img src="img/courses/mentor/anam.jpg" onclick="lightbox(61)" />
+            </div>
+            <div>
+              <h3>Anam Javed</h3>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Us Start -->
+<div class="subscribe_newsletter" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-6 col-lg-6">
+        <div class="newsletter_text">
+          <h3>Questions? Suggestions?</h3>
+          <p>Email us at contact@sawc.info</p>
+        </div>
+      </div>
+      <div class="col-xl-5 offset-xl-1 col-lg-6 newsletter_text">
+       <a href="#"><i class="fa fa-envelope" style="color: white; padding-right: 15px; font-size: 40px;"></i></a>
+       <a href="#"><i class="fa fa-twitter"style="color: white; padding-right: 15px;font-size: 40px;"></i></a>
+       <a href="#"><i class="fa fa-linkedin"style="color: white; padding-right: 15px;font-size: 40px;"></i></a>
+       <a href="#"><i class="fa fa-instagram"style="color: white; padding-right: 15px;font-size: 40px;"></i></a>
+       <a href="#"><i class="fa fa-facebook"style="color: white; padding-right: 15px;font-size: 40px;"></i></a>
+     </div>
+   </div>
+ </div>
+</div>
+<!-- Contact Us end -->
+
+<!-- JS here -->
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/ajax-form.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/scrollIt.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/nice-select.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/gijgo.min.js"></script>
+
+<!--contact js-->
+<script src="js/contact.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>

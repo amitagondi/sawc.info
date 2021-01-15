@@ -1,0 +1,1127 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SAWC</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center no-gutters">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="index.html">
+                                    <img style="width: 85%; " src="img/logo5.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation" ><strong>
+                                        <li ><a href="index.html" style="font-size: 14px">Home</a></li>
+                                        <li><a href="about.html" style="font-size: 14px">About</a></li>
+                                        <li  style="color: white"> <a style="font-size: 14px">Courses</a> <i class="ti-angle-down"></i>
+                    <ul class="submenu">
+                   <li><a href="courses.html">Course List</a></li>
+                   <li><a href="instructors.html">Instructors</a></li>
+               </ul>
+                                        <li style="color: white"><a style="font-size: 14px">Mentorship</a> <i class="ti-angle-down"></i>
+                                            <ul class="submenu">
+                                                 <li><a href="mentorlist.html">Mentors</a></li>
+                                                <li><a href="mentor.html">Events</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="resources.html" style="color: white" style="font-size: 14px">Resources</a></li>
+                                        <li style="color: white"><a style="font-size: 14px">Apply</a> <i class="ti-angle-down"></i>
+                                            <ul class="submenu">
+                                                 <li><a href="teacherApp.html">Teacher</a></li>
+                                                 <li><a href="studentApp.html">Student</a></li>
+                                                 <li><a href="mentorApp.html" >Mentor</a></li>
+                                            </ul>
+                                        </li>
+                                        <li style="color: white" ><a style="font-size: 14px">FAQ</a> <i class="ti-angle-down"></i>
+                                            <ul class="submenu">
+                                                 <li><a href="faq_student.html">Student</a></li>
+                                                <li><a href="faq_instructor.html">Teachers</a></li>
+                                                <li><a href="faq_parent.html">Parent</a></li>
+                                            </ul>
+                                        </li>
+                                        <!-- <li><a href="donate.html">Donate</a></li> -->
+                                    </strong>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                            <div class="log_chat_area d-flex align-items-center">
+                                <a href="#contact" class="boxed_btn_orange">
+                                    <i class="flaticon-user"></i>
+                                    <span>Contact Us</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    <div class="slider_area ">
+        <div class="single_slider d-flex align-items-center justify-content-center slider_bg_1">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-6 col-md-6">
+                        <div class="illastrator_png">
+                            <img src="img/banner/edu_ilastration.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                        <div class="slider_info">
+                            <h3>Learn your <br>
+                                Favorite Course <br>
+                                From College Students</h3>
+                            <a href="#" class="boxed_btn">Apply as a Teacher</a>
+
+                            <a href="#" class="boxed_btn">Apply as a Student</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+    <!-- about_area_start -->
+    <div class="about_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-5 col-lg-6">
+                    <div class="single_about_info">
+                        <h3>Over 750 Students already enrolled <br>
+                            from 25+ Courses</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco labori</p>
+                        <a href="#" class="boxed_btn">Enroll in a Course</a>
+                    </div>
+                </div>
+                <div class="col-xl-6 offset-xl-1 col-lg-6">
+                    <div class="about_tutorials">
+                        <div class="courses">
+                            <div class="inner_courses">
+                                <div class="text_info">
+                                    <span>26</span>
+                                    <p> Courses</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="courses-blue">
+                            <div class="inner_courses">
+                                <div class="text_info">
+                                    <span>753</span>
+                                    <p> Students</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="courses-sky">
+                            <div class="inner_courses">
+                                <div class="text_info">
+                                    <span>88</span>
+                                    <p> Institutions</p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about_area_end -->
+
+    <!-- popular_courses_start -->
+    <div class="popular_courses">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-100">
+                        <h3>Popular Courses</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="course_nav">
+                        <nav>
+                            <ul class="nav" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                        aria-controls="home" aria-selected="true">All Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                        aria-controls="profile" aria-selected="false">Sciences</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab"
+                                        aria-controls="contact" aria-selected="false">Business</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="design-tab" data-toggle="tab" href="#design" role="tab"
+                                        aria-controls="design" aria-selected="false">Humanities</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="Web-tab" data-toggle="tab" href="#Web" role="tab"
+                                        aria-controls="design" aria-selected="false">Life Skills and Hobbies</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="Web-tab1" data-toggle="tab" href="#Web1" role="tab"
+                                        aria-controls="design" aria-selected="false">Social Sciences</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="Web-tab11" data-toggle="tab" href="#Web11" role="tab"
+                                        aria-controls="design" aria-selected="false">Engineering</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="Adobe-XD-tab8" data-toggle="tab" href="#Adobe-XD8" role="tab"
+                                        aria-controls="design" aria-selected="false">Visual and Performing Arts</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="all_courses">
+            <div class="container">
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="more_courses text-center">
+                                            <a href="#" class="boxed_btn">More Courses</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                             <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="more_courses text-center">
+                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="tab-pane fade" id="contact1" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="more_courses text-center">
+                                            <a href="#" class="boxed_btn">More Courses</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="tab-pane fade" id="design" role="tabpanel" aria-labelledby="design-tab">
+                             <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="more_courses text-center">
+                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="tab-pane fade" id="Web" role="tabpanel" aria-labelledby="Web-tab">
+                                  <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="more_courses text-center">
+                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="tab-pane fade" id="Web1" role="tabpanel" aria-labelledby="Web-tab1">
+                             <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="more_courses text-center">
+                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="tab-pane fade" id="Web11" role="tabpanel" aria-labelledby="Web-tab11">
+                             <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="more_courses text-center">
+                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="tab-pane fade" id="Adobe-XD8" role="tabpanel" aria-labelledby="Adobe-XD8">
+                             <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="more_courses text-center">
+                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                    <div class="tab-pane fade" id="Adobe-XD9" role="tabpanel" aria-labelledby="Adobe-XD-tab9">
+                            <div class="row">
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   <div class="col-xl-4 col-lg-4 col-md-6">
+                                        <div class="single_courses">
+                                            <div class="thumb">
+                                                <a href="course_details.html">
+                                                    <img src="img/courses/1.png" alt="">
+                                                </a>
+                                            </div>
+                                            <div class="courses_info">
+                                                <span>Engineering</span>
+                                                <h3><a href="course_details.html">Mobile App design step by step <br>
+                                                        from beginner</a></h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-12">
+                                        <div class="more_courses text-center">
+                                            <a href="#" class="boxed_btn_rev">More Courses</a>
+                                        </div>
+                                    </div>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- popular_courses_end-->
+
+        <!-- Contact Us Start -->
+    <div class="subscribe_newsletter" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6">
+                    <div class="newsletter_text">
+                        <h3>Questions? Suggestions?</h3>
+                        <p>Email us at info@sawc.info</p>
+                    </div>
+                </div>
+                <div class="col-xl-5 offset-xl-1 col-lg-6 newsletter_text">
+                   <a href="#"><i class="fa fa-envelope" style="color: white; padding-right: 15px; font-size: 40px;"></i></a>
+                    <a href="#"><i class="fa fa-twitter"style="color: white; padding-right: 15px;font-size: 40px;"></i></a>
+                    <a href="#"><i class="fa fa-linkedin"style="color: white; padding-right: 15px;font-size: 40px;"></i></a>
+                    <a href="#"><i class="fa fa-instagram"style="color: white; padding-right: 15px;font-size: 40px;"></i></a>
+                    <a href="#"><i class="fa fa-facebook"style="color: white; padding-right: 15px;font-size: 40px;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Us end -->
+    
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/gijgo.min.js"></script>
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
